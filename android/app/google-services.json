@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "252065297832",
+    "firebase_url": "https://myflutterapp-c2037.firebaseio.com",
+    "project_id": "myflutterapp-c2037",
+    "storage_bucket": "myflutterapp-c2037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252065297832:android:6ad2f1d6b7dbe9491a999d",
+        "android_client_info": {
+          "package_name": "com.temideewan.firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252065297832-t58q1nrim04ih9oi8pqqckijtps25b8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-z3fI0So0cU02gia-2HjSMQEEbmfkLl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252065297832-t58q1nrim04ih9oi8pqqckijtps25b8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
