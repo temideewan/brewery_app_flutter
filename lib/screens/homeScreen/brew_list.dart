@@ -1,4 +1,5 @@
 import 'package:firebase_app/models/brew.dart';
+import 'package:firebase_app/screens/homeScreen/brew_tile.dart';
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
@@ -13,11 +14,11 @@ class _BrewListState extends State<BrewList> {
   Widget build(BuildContext context) {
     final brews = Provider.of<List<Brew>>(context);
     // print(brews.documents);
-    brews.forEach((brew) {
-      print(brew.name);
-      print(brew.sugars);
-      print(brew.strength);
-    });
-    return Container();
+    return ListView.builder(
+      itemCount: brews.length,
+      itemBuilder: (context, index) {
+        return BrewTile(brew: brews[index]);
+      },
+    );
   }
 }
